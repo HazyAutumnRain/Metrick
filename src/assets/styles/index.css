@@ -1,0 +1,123 @@
+.hidden {
+  display: none;
+}
+
+#hide {
+  display: none;
+}
+
+.radio {
+  display: none;
+}
+
+code {
+  background-color: #363636;
+  font-size: inherit;
+  padding: 2px
+}
+
+body h1 {
+  font-size: 38px;
+}
+
+body h2 {
+  font-size: 30px;
+}
+
+body h3 {
+  font-size: 22px;
+}
+
+body h4 {
+  font-size: 18px;
+}
+
+table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table thead{
+    border-width: 1px;
+}
+
+table tbody {
+  border-width: 1px;
+}
+
+th {
+  border-width: 1px;
+  padding: 20px;
+}
+
+td {
+  border-width: 1px;
+  padding: 20px
+}
+
+/* COLORS FOR HIGHLIGHTING */
+.language-red {
+  background-color: rgba(245, 101, 101, 0.2)
+}
+
+.language-orange {
+  background-color: rgba(237, 137, 54,0.2)
+}
+
+.language-yellow {
+  background-color: rgba(236, 201, 75, 0.2)
+}
+
+.language-green {
+  background-color: rgba(72, 187, 120, 0.2)
+}
+
+.language-teal {
+  background-color: rgba(56, 178, 172, 0.2)
+}
+
+.language-blue {
+  background-color: rgba(66, 153, 225, 0.2)
+}
+
+.language-cyan {
+  background-color: rgba(8, 111, 131, 0.1)
+}
+
+.language-purple {
+  background-color: rgba(159, 122, 234, 0.2)
+}
+
+.language-pink {
+  background-color: rgba(251, 182, 206, 0.2) 
+}
+
+@media only screen and (max-width: 600px) {
+  .editor {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .editor {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .editor {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .editor {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200) {
+  .editor {
+    width: 800px;
+  }
+}
